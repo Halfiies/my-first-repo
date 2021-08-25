@@ -1,4 +1,27 @@
 body{
   background-color: rgba(0, 128, 0, 1);
   font-family: 'Rhodium Libre', serif;
+  margin-left: 15%;
+
+}
+.sidebar {
+   height: 100%;
+   width: 15%;
+   background-color: rgba(0, 100, 0, 1);
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+}
+.nav { 
+  display: flex;
+  padding-left: 10%;
+  flex-direction: row;
+  fle
+
+}
+
+h2 {
+  padding-left: 5%;
+  padding-right:5%;
 }
