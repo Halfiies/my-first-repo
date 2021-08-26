@@ -28,8 +28,29 @@ h2 {
   display: grid 1fr 1fr;
 }
 
-.collapsible {
+
+
+.project {
   background-color: rgba(56, 176, 0, 1);
   border: 1px rgba(56, 176, 0, 1);
   border-radius: 5px;
-}
+  height: 40px;
+  width: 100px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 10%;
+ }
+
+ .project:hover {
+  height: 600px;
+  width: 60%;
+ }
+
+ article {
+  background-color: rgba(56, 176, 0, 1);
+  border: 1px rgba(56, 176, 0, 1);
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+ }
