@@ -23,3 +23,13 @@ h2 {
   padding-left: 5%;
   padding-right:5%;
 }
+
+.projects {
+  display: grid 1fr 1fr;
+}
+
+.collapsible {
+  background-color: rgba(56, 176, 0, 1);
+  border: 1px rgba(56, 176, 0, 1);
+  border-radius: 5px;
+}
