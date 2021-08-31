@@ -1,9 +1,10 @@
 * {
   font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 
 article {
-  background-color: #0a369d;
+  background-color: #ff750c;
   border: 1px #0a369d;
   border-radius: 5px;
   margin: 10px;
@@ -13,8 +14,8 @@ article {
 }
 
 .project {
-  background-color: #0a369d;
-  border: 1px #0a369d;
+  background-color: #ff750c;
+  border: 1px #ff750c;
   border-radius: 5px;
   height: 40px;
   width: 150px;
@@ -69,7 +70,6 @@ body {
   background-repeat: no-repeat;
   background-position: initial;
   background-color: #5e7ce2;
-  height: 600px;
 }
 
 .nav {
@@ -85,7 +85,6 @@ a {
   padding-right: 5%;
   justify-content: space-around;
   text-decoration: none;
-  color: black;
   font-size: 30px;
   font-weight: bold;
 }
