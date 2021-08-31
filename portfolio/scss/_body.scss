@@ -1,0 +1,13 @@
+@use "./_abstract.scss" as *;
+
+main {
+  padding: left 25%;
+  max-height: 100vh;
+}
+body {
+  background-image: url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\keyboard.jpg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-color: $color-secondary;
+  height: 600px;
+}
