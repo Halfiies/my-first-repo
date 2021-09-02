@@ -1,0 +1,1 @@
+This is my portfolio website, and ill update and improve it as i aquire more skills.
