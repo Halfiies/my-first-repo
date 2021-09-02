@@ -1,0 +1,12 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+button {
+  background-color: #ff750c;
+  border: 1px #ff750c;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+}

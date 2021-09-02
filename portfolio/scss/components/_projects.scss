@@ -1,13 +1,4 @@
-@use "./abstract" as *;
-
-button {
-  background-color: $color-primary;
-  border: 1px $color-primary;
-  border-radius: 5px;
-  height: 40px;
-  width: 100px;
-  
-}
+@use "../abstracts/_abstract.scss" as *;
 
 .project {
   display:flex;
@@ -21,6 +12,7 @@ button {
   border: 1px $color-primary;
   border-radius: 5px;
   padding: 10px;
+  margin-bottom: 10px;
   height: fit-content;
   width: fit-content;
   display: none;

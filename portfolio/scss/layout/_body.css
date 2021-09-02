@@ -24,9 +24,9 @@ main {
   }
 }
 body {
-  background-image: url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\keys2.jpg");
+  background-image: url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\background.jpg");
   background-repeat: no-repeat;
   background-position: initial;
-  background-size: cover;
+  background-size: contain;
   background-color: #5e7ce2;
 }

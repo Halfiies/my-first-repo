@@ -1,4 +1,4 @@
-@use "./abstract" as *;
+@use "../abstracts/_abstract.scss" as *;
 article {
   background-color: $color-primary;
   border: 1px rgba(10, 54, 157);

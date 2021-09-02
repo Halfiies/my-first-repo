@@ -3,14 +3,6 @@
   color: white;
 }
 
-button {
-  background-color: #ff750c;
-  border: 1px #ff750c;
-  border-radius: 5px;
-  height: 40px;
-  width: 100px;
-}
-
 .project {
   display: flex;
   justify-content: space-between;
@@ -23,6 +15,7 @@ button {
   border: 1px #ff750c;
   border-radius: 5px;
   padding: 10px;
+  margin-bottom: 10px;
   height: fit-content;
   width: fit-content;
   display: none;
