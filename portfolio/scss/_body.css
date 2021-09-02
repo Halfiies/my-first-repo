@@ -1,0 +1,17 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+main {
+  padding: left 25%;
+  max-height: 100vh;
+}
+
+body {
+  background-image: url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\keys2.jpg"), url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\keyboard.jpg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: contain, cover;
+  background-color: #5e7ce2;
+}

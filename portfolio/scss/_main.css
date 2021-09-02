@@ -40,6 +40,12 @@ section {
     display: inline-block;
   }
 }
+@media all and (max-width: 1024px) {
+  .project {
+    height: fit-content;
+    width: 60%;
+  }
+}
 .sidebar {
   height: 100%;
   width: 15%;
@@ -67,9 +73,10 @@ main {
 }
 
 body {
-  background-image: url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\keyboard.jpg");
+  background-image: url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\keys2.jpg"), url("C:\\Users\\morri\\development\\nology\\portfolio\\images\\keyboard.jpg");
   background-repeat: no-repeat;
   background-position: initial;
+  background-size: contain, cover;
   background-color: #5e7ce2;
 }
 
