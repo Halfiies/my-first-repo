@@ -1,0 +1,11 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+article {
+  background-color: #ff750c;
+  border: 1px #0a369d;
+  border-radius: 5px;
+  padding: 10px;
+}

@@ -1,16 +1,18 @@
+"use strict";
 
 function revealProjectOne() {
   var x = document.getElementById("projectOne");
+
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
 }
-
 
 function revealProjectTwo() {
   var x = document.getElementById("projectTwo");
+
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -18,9 +20,9 @@ function revealProjectTwo() {
   }
 }
 
-
 function revealProjectThree() {
   var x = document.getElementById("projectThree");
+
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -30,6 +32,7 @@ function revealProjectThree() {
 
 function revealProjectFour() {
   var x = document.getElementById("projectFour");
+
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -37,7 +40,7 @@ function revealProjectFour() {
   }
 }
 
-revealProjectOne()
-revealProjectTwo() 
-revealProjectThree()
-revealProjectFour()
+revealProjectOne();
+revealProjectTwo();
+revealProjectThree();
+revealProjectFour();
