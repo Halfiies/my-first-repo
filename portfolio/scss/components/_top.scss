@@ -1,0 +1,8 @@
+@use "../abstracts/_abstract.scss" as *;
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: $color-tertiary;
+  text-align: center;
+}

@@ -1,32 +1,29 @@
-* {
-  font-family: "Courier New", Courier, monospace;
-  color: white;
-}
+@use "../abstracts/_abstract.scss" as *;
 
 .project {
-  display: flex;
+  display:flex;
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .projectContent {
-  background-color: #ff750c;
-  border: 1px #ff750c;
+  background-color: $color-primary;
+  border: 1px $color-primary;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
   height: fit-content;
   width: fit-content;
-  display: none;
+  display: flex;
 }
 
-section {
+section{
   display: flex;
 }
 
 @media all and (max-width: 500px) {
-  section {
-    display: inline-block;
+  section { 
+    display:inline-block; 
   }
 }

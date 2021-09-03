@@ -7,5 +7,7 @@ article {
   background-color: #ff750c;
   border: 1px #0a369d;
   border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
 }
