@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio ",
+  "main": "portfolio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+     "watch:scss":"sass --watch scss/main.scss main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halfiies/my-first-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Halfiies/my-first-repo/issues"
+  },
+  "homepage": "https://github.com/Halfiies/my-first-repo#readme",
+  "devDependencies": {
+    "sass": "^1.39.0"
+  }
+}
