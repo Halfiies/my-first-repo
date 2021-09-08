@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap");
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Rhodium Libre", serif;
   color: #2d232e;
 }
 
@@ -16,7 +17,7 @@ button {
   background-color: #f1f0ea;
   border: 1px #f1f0ea;
   border-radius: 5px;
-  height: 40px;
-  width: 100px;
+  min-height: 50px;
+  max-width: 100px;
   margin: auto;
 }

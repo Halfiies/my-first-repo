@@ -1,0 +1,10 @@
+.portrait {
+  max-width: 200px;
+  max-height: 236px;
+}
+
+@media all and (max-width: 370px) {
+  .portrait {
+    display: none;
+  }
+}

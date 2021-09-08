@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap");
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Rhodium Libre", serif;
   color: #2d232e;
 }
 
@@ -12,4 +13,14 @@ header {
   border-radius: 5px;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+@media all and (max-width: 500px) {
+  header {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }

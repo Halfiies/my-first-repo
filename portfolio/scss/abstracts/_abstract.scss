@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
 $color-primary: rgba(241, 240, 234);
 $color-secondary: rgba(71, 68, 72);
 $color-tertiary: rgba(224, 221, 207);
 $breakpointmobile: 500px;
-$font: 'Courier New', Courier, monospace;
+$font: 'Rhodium Libre', serif;
 
 * {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Rhodium Libre', serif;
   color: rgba(45, 35, 46);
 
 }

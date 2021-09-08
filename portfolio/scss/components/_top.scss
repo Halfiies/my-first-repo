@@ -10,3 +10,13 @@ header {
   margin-left: 20%;
   margin-right: 20%;
 }
+
+@media all and (max-width: $breakpointmobile) {
+  header { 
+        padding-left:5%;
+        padding-right: 5%;
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+  }  
+}  
