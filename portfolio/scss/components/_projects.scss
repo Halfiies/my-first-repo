@@ -6,6 +6,7 @@
 }
 
 .projectContent {
+  display: unset;
   background-color: $color-primary;
   border: 1px $color-primary;
   border-radius: 5px;
@@ -15,13 +16,19 @@
   height: fit-content;
   width: fit-content;
   display: flex;
+  flex-flow: row nowrap;
 }
-
+p {
+  display: flex;
+}
+img {
+  margin:10px;
+}
 section{
   display: flex;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: $breakpointmobile) {
   section { 
     display:inline-block; 
   }

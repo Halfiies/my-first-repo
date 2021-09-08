@@ -7,7 +7,7 @@ main {
   width: 60%;
 }
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: $breakpointmobile) {
     main { padding-left:5%;
           padding-right: 5%;
           width: 90%;

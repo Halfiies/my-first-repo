@@ -1,9 +1,12 @@
-@use "../abstracts/_abstract.scss" as *;
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: #2d232e;
+}
 
 header {
   display: flex;
   justify-content: center;
-  background-color: $color-tertiary;
+  background-color: #e0ddcf;
   text-align: center;
   width: 60%;
   border-radius: 5px;

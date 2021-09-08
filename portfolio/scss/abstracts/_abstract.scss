@@ -1,8 +1,12 @@
-$color-primary: #ff750c;
-$color-secondary: (71, 68, 72);
-$color-tertiary: rgba(10, 54, 157);
+$color-primary: rgba(241, 240, 234);
+$color-secondary: rgba(71, 68, 72);
+$color-tertiary: rgba(224, 221, 207);
+$breakpointmobile: 500px;
+$font: 'Courier New', Courier, monospace;
 
 * {
   font-family: 'Courier New', Courier, monospace;
-  color: white;
+  color: rgba(45, 35, 46);
+
 }
+// https://coolors.co/474448-2d232e-e0ddcf-534b52-f1f0ea //
