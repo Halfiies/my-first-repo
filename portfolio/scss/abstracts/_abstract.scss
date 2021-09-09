@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@600&display=swap');
 $color-primary: rgba(241, 240, 234);
-$color-secondary: rgba(71, 68, 72);
+$color-secondary: rgba(104, 99, 105);
 $color-tertiary: rgba(224, 221, 207);
+$color-back: #262229;
 $breakpointmobile: 500px;
-$font: 'Rhodium Libre', serif;
+$font:'Lora', serif;
+$font-buttons:'Poppins', sans-serif;
 
 * {
-  font-family: 'Rhodium Libre', serif;
-  color: rgba(45, 35, 46);
+  font-family: 'Lora', serif;
+  color: rgba(241, 240, 234);
 
 }
 // https://coolors.co/474448-2d232e-e0ddcf-534b52-f1f0ea //

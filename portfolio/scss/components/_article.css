@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap");
 * {
   font-family: "Rhodium Libre", serif;
-  color: #2d232e;
+  color: #f1f0ea;
 }
 
 article {
-  background-color: #f1f0ea;
-  border: 1px #0a369d;
+  background-color: #2d232e;
+  border: 1px #2d232e;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;

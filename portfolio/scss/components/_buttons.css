@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap");
 * {
   font-family: "Rhodium Libre", serif;
-  color: #2d232e;
+  color: #f1f0ea;
 }
 
 .project {
@@ -14,8 +14,8 @@
 button {
   display: flex;
   justify-content: center;
-  background-color: #f1f0ea;
-  border: 1px #f1f0ea;
+  background-color: #2d232e;
+  border: 1px #2d232e;
   border-radius: 5px;
   min-height: 50px;
   max-width: 100px;

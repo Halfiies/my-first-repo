@@ -6,10 +6,11 @@
   grid-gap: 10px;
 } 
 button {
+  font-family: $font-buttons;
   display: flex;
   justify-content: center;
-  background-color: $color-primary;
-  border: 1px $color-primary;
+  background-color: $color-back;
+  border: 1px $color-back;
   border-radius: 5px;
   min-height: 50px;
   max-width: 100px;

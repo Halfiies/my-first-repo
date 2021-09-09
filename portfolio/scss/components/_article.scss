@@ -1,7 +1,7 @@
 @use "../abstracts/_abstract.scss" as *;
 article {
-  background-color: $color-primary;
-  border: 1px rgba(10, 54, 157);
+  background-color:$color-back;
+  border: 1px $color-back;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;

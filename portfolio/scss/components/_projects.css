@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap");
 * {
-  font-family: "Courier New", Courier, monospace;
-  color: #2d232e;
+  font-family: "Rhodium Libre", serif;
+  color: #f1f0ea;
 }
 
 .projectContent {
   display: unset;
-  background-color: #f1f0ea;
-  border: 1px #f1f0ea;
+  background-color: #2d232e;
+  border: 1px #2d232e;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
